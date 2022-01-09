@@ -1,15 +1,15 @@
 # Financial Planning and Analysis tools 
 (with APIs and Simulations using Jupyter Notebook)
 
-## * A financial planner for emergencies. 
+## A financial planner for emergencies. 
 
-1. This tool allows to calculate current balance of saving portfolio which may consist of assests like cryptocurrency, bonds and stocks by obtaining the upto date prices from APIs.
-2. It also enables the individual to determine whether the current balances in savings are enough to savings to build an emergency fund into their financial plan, which is considered as thrice the monthly income.
+1. This tool allows an individual to calculate current balance of saving portfolio which may consist of assests like cryptocurrency, bonds and stocks by obtaining the upto date prices from APIs.
+2. It also enables the individuals to determine whether the current balances in savings are enough to build an emergency fund into their financial plan, which is considered as thrice the monthly income.
 
-## * A financial planner for retirement. 
+## A financial planner for retirement. 
 
-1. This tool can be used to plan the retirement portfolio value  and plan the combinations of equity and bonds in the portfolio according to the risk tolerance and risk appetite to acheive the goal at the time of retirement.
-2. It also helps in determining if the retirement goal portfolio value can be achieved earlier than planned, with the changes in portfolio weightage and number of years  and running simulations, if somebody chooses to go for early retirement.
+1. This tool can be used to plan the retirement portfolio and plan the combinations of equity and bonds in the portfolio according to the risk tolerance and risk appetite to acheive the goal at the time of retirement.
+2. It also helps in determining if the retirement goal portfolio value can be achieved earlier than planned, by running simulations with the changes in portfolio weightage and number of years, if somebody wishes to go for early retirement.
 
 ## Technologies
 
@@ -77,7 +77,7 @@ In this section, we add the valuations of the cryptocurrency wallet to that of t
  
 `Results:`The total value of entire savings portfolio is USD USD 142888.73 whereas the emergency funds required are USD 36000.00 (assuming the monthly income USD 12000.00). Here we have enough money in the savings for emergency fund.
 
-![](images/portfolio_composition.png)
+![](Images/portfolio_composition.png)
 
 
 ### Financial Planner for Retirement
@@ -90,9 +90,9 @@ Further, we then run Monte Carlo simulations  with a traditional portfolio split
 
 `Results:`
 
-![](images/500_MCsimulations_30 years.png)
+![](Images/500_MCsimulations_30 years.png)
 
-![](images/probability_distribution _30_years.png)
+![](Images/probability_distribution _30_years.png)
 
 The summary statistics from the 30-year Monte Carlo simulations are:
 count            500.000000
@@ -115,9 +115,9 @@ Name: 7560, dtype: float64
 Here, we adjust the retirement portfolio weights to the composition of 20% bonds and 80% stocks and run a new Monte Carlo simulation for 10 years to find out if the changes will allow members to retire earlier and plot the results with generating summary statistics.Because of the shortened investment horizon (30 years to 10 years), the portfolio needs to invest more heavily in the riskier asset—that is, stock—to help accumulate wealth for retirement.
 `Results:`
 
-![](images/10_year_MC simulation.png)
+![](Images/10_year_MC simulation.png)
 
-![](images/probability_distribution_10_year _MC.png)
+![](Images/probability_distribution_10_year _MC.png)
 
 
 The summary statistics from the 10-year Monte Carlo simulations are:
