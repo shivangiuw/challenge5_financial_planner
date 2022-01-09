@@ -90,9 +90,9 @@ Further, we then run Monte Carlo simulations  with a traditional portfolio split
 
 `Results:`
 
-![](Images/500_MCsimulations_30 years.png)
+![](Images/500_MCsimulations_30_years.png)
 
-![](Images/probability_distribution _30_years.png)
+![](Images/probability_distribution_30_years.png)
 
 The summary statistics from the 30-year Monte Carlo simulations are:
 count            500.000000
@@ -115,9 +115,9 @@ Name: 7560, dtype: float64
 Here, we adjust the retirement portfolio weights to the composition of 20% bonds and 80% stocks and run a new Monte Carlo simulation for 10 years to find out if the changes will allow members to retire earlier and plot the results with generating summary statistics.Because of the shortened investment horizon (30 years to 10 years), the portfolio needs to invest more heavily in the riskier asset—that is, stock—to help accumulate wealth for retirement.
 `Results:`
 
-![](Images/10_year_MC simulation.png)
+![](Images/10_year_MC_simulation.png)
 
-![](Images/probability_distribution_10_year _MC.png)
+![](Images/probability_distribution_10_year_MC.png)
 
 
 The summary statistics from the 10-year Monte Carlo simulations are:
